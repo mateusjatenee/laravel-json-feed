@@ -17,7 +17,9 @@ $ composer require mateusjatenee/php-json-feed
 
 #### Laravel Installation   
 
-On your `config/app.php` file, register the service provider:   
+If you are using __laravel 5.5__ or higher the installation is already finished! You don't need to do another thing.
+
+If you are using laravel 5.4 or lower open your `config/app.php` file and register the service provider:   
 ```php   
 'providers' => [
     ...
